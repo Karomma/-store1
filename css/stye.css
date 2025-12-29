@@ -10,6 +10,10 @@ body {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -244,6 +248,7 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
