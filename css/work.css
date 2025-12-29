@@ -11,6 +11,10 @@ body {
   background: #0d0d0d;
   color: #fff;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
 .navbar {
 
 display: flex;
@@ -152,3 +156,4 @@ display: flex;
 html {
   scroll-behavior: smooth;
 }
+
